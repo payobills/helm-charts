@@ -2,12 +2,15 @@
 
 Helm charts for all microservices for the [payobills](https://github.com/payobills/payobills) app.
 
-## Notice
-These charts are in alpha release and are uploaded manually for now. Until this repo is completely automated, installation can only be done with raw urls.
+## getting started
 
-Example:
+Add the helm repo
 ```
-helm install -n payobills bills \
-    https://github.com/payobills/helm-charts/raw/main/charts/bills/charts/bills-v0.2.0-alpha.7.tar.gz \
-    --values <path-to-your-values.yaml>
+helm repo add payobills https://payobills.github.io/helm-charts
+```
+
+## install a chart
+
+```
+helm install --create-namespace -n payobills payobills/bills --generate-name --version 0.2.0-alpha.7
 ```

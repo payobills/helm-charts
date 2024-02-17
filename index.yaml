@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  bills:
+  - apiVersion: v2
+    appVersion: 0.2.0-alpha.7
+    created: "2024-02-17T21:30:58.920951+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 6b8f20149b67b7c6f65d96c075b396d077c8d50d490dfcbca9ee24ee88865666
+    name: bills
+    type: application
+    urls:
+    - bills-v0.2.0-alpha.7.tgz
+    version: 0.2.0-alpha.7
+generated: "2024-02-17T21:30:58.919725+05:30"

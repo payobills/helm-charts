@@ -46,7 +46,7 @@ entries:
     version: 0.1.0
   bills-parser:
   - apiVersion: v2
-    appVersion: 0.1.1
+    appVersion: 0.1.0
     created: "2024-11-05T18:12:54.184374+05:30"
     description: parser service to do OCR on bill statements and parse transactions from it
     digest: cdc3a71c0451e6ccae11deaf991a21b12a2984844947c3ee0dc968a33cfbd6d8

@@ -3,7 +3,7 @@ entries:
   bills:
   - apiVersion: v2
     appVersion: 0.2.0-alpha.7
-    created: "2024-10-26T14:08:32.797984+05:30"
+    created: "2024-11-05T18:12:54.18361+05:30"
     description: A Helm chart for Kubernetes
     digest: 6b8f20149b67b7c6f65d96c075b396d077c8d50d490dfcbca9ee24ee88865666
     name: bills
@@ -14,7 +14,7 @@ entries:
   files:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-10-26T14:08:32.803685+05:30"
+    created: "2024-11-05T18:12:54.183886+05:30"
     description: A Helm chart for Kubernetes
     digest: 2754e8a98c101d6971062ce248157b5a6409b5b481264a4ee3c2076503b9ff08
     name: files
@@ -25,7 +25,7 @@ entries:
   payments:
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2024-10-26T14:08:32.809552+05:30"
+    created: "2024-11-05T18:12:54.184121+05:30"
     description: A Helm chart for Kubernetes
     digest: b71505e00742978d2b19d7b4c13dc1b0de62a71974a4208313248abb634bdac4
     name: payments
@@ -36,7 +36,7 @@ entries:
   ui:
   - apiVersion: v2
     appVersion: 0.2.10
-    created: "2024-10-26T14:08:32.81534+05:30"
+    created: "2024-11-05T18:12:54.184374+05:30"
     description: The Frontend UI for payobills
     digest: cdc3a71c0451e6ccae11deaf991a21b12a2984844947c3ee0dc968a33cfbd6d8
     name: ui
@@ -44,4 +44,15 @@ entries:
     urls:
     - ui/ui-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-26T14:08:32.78967+05:30"
+  bills-parser:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2024-11-05T18:12:54.184374+05:30"
+    description: parser service to do OCR on bill statements and parse transactions from it
+    digest: cdc3a71c0451e6ccae11deaf991a21b12a2984844947c3ee0dc968a33cfbd6d8
+    name: bills-parser
+    type: application
+    urls:
+    - bills-parser/bills-parser-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-05T18:12:54.183203+05:30"

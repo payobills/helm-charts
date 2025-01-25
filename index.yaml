@@ -3,7 +3,7 @@ entries:
   bills:
   - apiVersion: v2
     appVersion: 0.2.16
-    created: "2025-01-25T19:17:14.616186+05:30"
+    created: "2025-01-25T19:31:09.561823+05:30"
     description: Bills and payments service for Payobills
     digest: 6fc8a775ee958615c98d7e9487b704cca7d27f26f2f7ce37a91a265743bbae20
     name: bills
@@ -13,7 +13,7 @@ entries:
     version: 0.2.16
   - apiVersion: v2
     appVersion: 0.2.15
-    created: "2025-01-25T19:17:14.614479+05:30"
+    created: "2025-01-25T19:31:09.556946+05:30"
     description: Bills and payments service for Payobills
     digest: 9e77b1e46bd9972dfc97c31432db979c3ee7d4242b59ce0b1087b7220eb0388d
     name: bills
@@ -23,7 +23,7 @@ entries:
     version: 0.2.15
   - apiVersion: v2
     appVersion: 0.2.0-alpha.7
-    created: "2025-01-25T19:17:14.616559+05:30"
+    created: "2025-01-25T19:31:09.565682+05:30"
     description: A Helm chart for Kubernetes
     digest: 6b8f20149b67b7c6f65d96c075b396d077c8d50d490dfcbca9ee24ee88865666
     name: bills
@@ -33,8 +33,18 @@ entries:
     version: 0.2.0-alpha.7
   bills-parser:
   - apiVersion: v2
+    appVersion: 0.4.2
+    created: "2025-01-25T19:31:09.575342+05:30"
+    description: Bills statement parser service for Payobills
+    digest: f0e0e84cc7d0aa00dddb7beb013d8e220da8e5039758c015fa39c35f338dcc11
+    name: bills-parser
+    type: application
+    urls:
+    - bills-parser/bills-parser-0.4.2.tgz
+    version: 0.4.2
+  - apiVersion: v2
     appVersion: 0.4.1
-    created: "2025-01-25T19:17:14.617333+05:30"
+    created: "2025-01-25T19:31:09.57469+05:30"
     description: Bills statement parser service for Payobills
     digest: 6e387a92b47f94ac8cf03a93b4959bd090610d7c642ef9d8db845af792dd48cc
     name: bills-parser
@@ -56,7 +66,7 @@ entries:
   files:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-01-25T19:17:14.617697+05:30"
+    created: "2025-01-25T19:31:09.579713+05:30"
     description: A Helm chart for Kubernetes
     digest: 2754e8a98c101d6971062ce248157b5a6409b5b481264a4ee3c2076503b9ff08
     name: files
@@ -67,7 +77,7 @@ entries:
   payments:
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2025-01-25T19:17:14.618005+05:30"
+    created: "2025-01-25T19:31:09.583617+05:30"
     description: A Helm chart for Kubernetes
     digest: b71505e00742978d2b19d7b4c13dc1b0de62a71974a4208313248abb634bdac4
     name: payments
@@ -78,7 +88,7 @@ entries:
   ui:
   - apiVersion: v2
     appVersion: 0.2.47
-    created: "2025-01-25T19:17:14.618787+05:30"
+    created: "2025-01-25T19:31:09.59522+05:30"
     description: The Frontend UI for payobills
     digest: 97fc6d36e167d3dbdd65308c5e71f91c53f73574bf2daab79994c1e23551cf27
     name: ui
@@ -88,7 +98,7 @@ entries:
     version: 0.2.47
   - apiVersion: v2
     appVersion: 0.2.10
-    created: "2025-01-25T19:17:14.618411+05:30"
+    created: "2025-01-25T19:31:09.589655+05:30"
     description: The Frontend UI for payobills
     digest: cdc3a71c0451e6ccae11deaf991a21b12a2984844947c3ee0dc968a33cfbd6d8
     name: ui
@@ -96,4 +106,4 @@ entries:
     urls:
     - ui/ui-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-25T19:17:14.611779+05:30"
+generated: "2025-01-25T19:31:09.552544+05:30"

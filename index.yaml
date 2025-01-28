@@ -72,7 +72,7 @@ entries:
     name: files
     type: application
     urls:
-    - files/files-v0.2.0.tgz
+    - files/files-0.2.0.tgz
     version: 0.2.0
   payments:
   - apiVersion: v2

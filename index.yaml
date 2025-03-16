@@ -103,7 +103,7 @@ entries:
     name: ocr
     type: application
     urls:
-    - ocr/ocr-0.0.1.tgz
+    - ocr/ocr-0.0.1-9d8b2060.tgz
     version: 0.0.1-9d8b2060
   payments:
   - apiVersion: v2
